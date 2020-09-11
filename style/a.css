@@ -1,0 +1,231 @@
+@import "fonts.css";
+@import "hover.css";
+
+
+
+/* --------HEADER---------- */
+
+header{
+  background-color: none;
+  transition: 1s;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+header:hover{
+  background-color: rgb(32, 17, 17);
+  opacity: 1;
+  transition: 1s;
+}
+
+/* ---------------- navbar start ------------- */
+.navbar{
+  font-family: 'Sriracha', cursive;
+  font-weight: bolder !important;
+  font-size: 20px;
+}
+.navbar-nav {
+}
+.navbar-brand {
+  font-size: 26px !important;
+}
+.nav-link {
+  border-bottom: 3px solid transparent;
+  transition: 1s;
+  margin-left: 15px;
+}
+.nav-link:hover {
+  border-color: rgb(255, 38, 0);
+  text-decoration: underline;
+}
+.social-nav {
+}
+.social-nav > li > a{
+  list-style-type: none;
+  color: white !important;
+  margin-left: -40px;
+}
+.fab {
+  font-size: 26px !important;
+  transition: 0.5s;
+}
+.fab:hover {
+  color: red;
+  transition: 0.5s;
+}
+/* navbar finish */
+
+#tava-video {
+    width: auto !important;
+    height: 100% !important; 
+}
+
+.intro {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+  .intro video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: ;
+    height: 100%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+  }
+  
+  .intro .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F04D61;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
+  .intro-h1{
+    /* margin: 200px 100px 500px 200px; */
+    padding: 0;
+    font-family: arial;
+    font-size: 5em;
+    text-shadow: 0 10px 3px rgba(65, 52, 52, 0.5);
+    color: #ffffff;
+  }
+  .change-text:before{
+    content:'Delicious';
+    color: rgb(255, 38, 0);
+    animation: yazı infinite 10s;
+  }
+  @keyframes yazı{
+    35%{content:'Various';}
+    50%{content:'Healty';}
+    85%{content:'fresh';}
+  }
+
+/* ---------header-finish---------- */
+
+/* ---------MAİN----------- */
+
+.parallax{
+}
+
+/* ------------------------------------------------ */
+
+#parallax1 {
+  background-image: url("/home/mehmet/web Denemeler/Cooker/img/parallax-bg4.jpg");
+  background-size: cover;
+  background-color:none;
+}
+#parallax1-col-1 > .jumbotron {
+  border-radius: 150px !important
+}
+/* -------------------------------------------- */
+
+/* ----------- paralax2 start ----------------- */
+
+#parallax2 {
+  height:auto;
+  background-color: rgb(74, 74, 97);
+  background-size: ;
+}
+#works-h1 {
+  font-family: 'Sriracha', cursive !important;
+}
+#works-h1:hover {
+  text-decoration: underline;
+}
+.card {
+  z-index: 1;
+}
+
+.card > img {
+  width: a;
+  height: 200px;
+  z-index: 0;
+}
+
+.card:hover {
+}
+.carousel {
+}
+
+/* ----------- paralax2 finish ----------------- */
+
+/* ----------- Contact Start -------------- */
+
+#parallax3 {
+  background-color: rgb(28, 175, 175);
+}
+
+#contact-form {
+  background-color: rgb(28, 175, 175);
+}
+#contact-h1 {
+  color: white;
+}
+#contact-p {
+  color: white;
+}
+#contact-button {
+  color: white;
+  border: 2px solid white;
+}
+.contact-col h1,p{
+  color: black
+}
+#contact-button:hover {
+  color: black;
+  border: 2px solid white;
+  background-color: white
+}
+
+#map {
+}
+.map-bg {
+  background-color: rgb(28, 175, 175);;
+  border: 3px solid white;
+}
+#map-iframe {
+  border: 5px solid white !important;
+}
+.map-text {
+  color: white;
+}
+
+/* ------------ Contact Finish -------------- */
+
+
+/* ---------FOOOTER-------- */
+
+footer {
+  color: white;
+  background-color:rgb(28, 175, 175); !important;
+}
+.footer-copyright > a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.footer-copyright > a:hover {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+/* ------------ Foooter-Finish ----------- */
